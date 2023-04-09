@@ -1,0 +1,54 @@
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\appsettings.json
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\MinimalAPIs 7.exe
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\MinimalAPIs 7.deps.json
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\MinimalAPIs 7.runtimeconfig.json
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\MinimalAPIs 7.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\MinimalAPIs 7.pdb
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Humanizer.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Npgsql.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\MinimalAPIs 7.csproj.AssemblyReference.cache
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\MinimalAPIs 7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\MinimalAPIs 7.AssemblyInfoInputs.cache
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\MinimalAPIs 7.AssemblyInfo.cs
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\MinimalAPIs 7.csproj.CoreCompileInputs.cache
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\MinimalAPIs 7.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\MinimalAPIs 7.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\staticwebassets\msbuild.MinimalAPIs 7.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\staticwebassets\msbuild.build.MinimalAPIs 7.props
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MinimalAPIs 7.props
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MinimalAPIs 7.props
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\scopedcss\bundle\MinimalAPIs 7.styles.css
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\MinimalAPIs 7.csproj.CopyComplete
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\MinimalAPIs 7.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\refint\MinimalAPIs 7.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\MinimalAPIs 7.pdb
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\MinimalAPIs 7.genruntimeconfig.cache
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\obj\Debug\net7.0\ref\MinimalAPIs 7.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\IdentityModel.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\IdentityModel.AspNetCore.OAuth2Introspection.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\IdentityServer4.AccessTokenValidation.dll
+C:\Users\legen\source\repos\MinimalAPIs 7\MinimalAPIs 7\bin\Debug\net7.0\Newtonsoft.Json.dll
