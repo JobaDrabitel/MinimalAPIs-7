@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MinimalAPIs_7.Entities;
 
 namespace MinimalAPIs_7
 {

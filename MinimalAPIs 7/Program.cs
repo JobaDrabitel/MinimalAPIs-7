@@ -1,12 +1,10 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using MinimalAPIs_7;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+using MinimalAPIs_7.Entities;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -55,7 +53,7 @@ string GenerateToken(SymmetricSecurityKey key)
 }
 
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
-builder.Services.AddSwaggerGen(x=>
+builder.Services.AddSwaggerGen(x =>
 {
     x.AddSecurityDefinition("bearerAuth", new OpenApiSecurityScheme
     {
@@ -67,18 +65,18 @@ builder.Services.AddSwaggerGen(x=>
         Description = "JWT Authorization header using the Bearer scheme."
     });
     x.AddSecurityRequirement(new OpenApiSecurityRequirement
-                {
+    {
+        {
+           new OpenApiSecurityScheme
+           {
+                Reference = new OpenApiReference
                     {
-                          new OpenApiSecurityScheme
-                            {
-                                Reference = new OpenApiReference
-                                {
-                                    Type = ReferenceType.SecurityScheme,
-                                    Id = "bearerAuth"
-                                }
-                            },
-                            new string[] {}
+                       Type = ReferenceType.SecurityScheme,
+                       Id = "bearerAuth"
                     }
+           },
+           new string[] {}
+        }
     });
 });
 
@@ -205,7 +203,7 @@ app.MapPost("/trips", async (MyDbContext dbContext, TripRequest request) =>
         IsCanceled = false,
         Token = Guid.NewGuid().ToString(),
         CreateTime = DateTime.Now,
-};
+    };
     await dbContext.Trips.AddAsync(trip);
     await dbContext.SaveChangesAsync();
 
@@ -222,7 +220,7 @@ app.MapPost("/trips", async (MyDbContext dbContext, TripRequest request) =>
             Console.WriteLine($"UserId: {request.UserId}, TripId: {tripId}");
             await Task.Delay(TimeSpan.FromSeconds(5));
         }
-           
+
     });
     user.CityId = request.DestinationCityId;
     await dbContext.SaveChangesAsync();
@@ -262,43 +260,7 @@ app.MapPost("/trips/cancellation-token={cancellationToken}", async (string cance
     workerDictionary[trip.TripId].Dispose();
     return Results.Ok("Trip is canceled!");
 });
-//app.MapPost("/randomCities", async () =>
-//{
-//    Random rand = new Random();
 
-//    for (int i = 4; i < 50; i++)
-//    {
-//        double lat = rand.NextDouble() * 360;
-//        double lon = rand.NextDouble() * 360;
-//        City newCity = new City()
-//        {
-//            Name = "City" + i.ToString(),
-//            Latitude = lat,
-//            Longitude = lon
-//        };
-//        dbContext.Cities.Add(newCity);
-//        await dbContext.SaveChangesAsync();
-
-//    }
-//    return dbContext.Cities;
-//});
-//app.MapPost("/randomUsers", async () =>
-//{
-//    Random rand = new Random();
-
-//    for (int i = 4; i < 500; i++)
-//    {
-//        int randCity = rand.Next(50);
-//        User newUser = new User()
-//        {
-//            CityId = randCity,
-//            Name = "User" + i.ToString(),
-//        };
-//        dbContext.Users.Add(newUser);
-//        await dbContext.SaveChangesAsync();
-//    }
-//    return dbContext.Users;
-//});
 
 async Task<Weather> GetWeatherAsync(double lat, double lon, string key)
 {
@@ -346,53 +308,3 @@ List<City> GetCitiesInRadius(double lat, double lon, double radius, List<City> c
 
 
 app.Run();
-
-public class User
-{
-    [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public int UserId { get; set; }
-    public required string Name { get; set; }
-    public int CityId { get; set; }
-}
-
-public class City
-{
-    [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public int CityId { get; set; }
-    public required string Name { get; set; }
-    public double Latitude { get; set; }
-    public double Longitude { get; set; }
-}
-public class Weather
-{
-    public required string Description { get; set; }
-    public double Temperature { get; set; }
-}
-public class Trip
-{
-    [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-
-        public int TripId { get; set; }
-        public int UserId { get; set; }
-        public int DestinationCityId { get; set; }
-        public int TripTime { get; set; }
-        public required string  Token { get; set; }
-        public bool IsCanceled { get; set; }
-        public DateTime CreateTime { get; set; }
-
-}
-public class TripRequest
-{
-    public int UserId { get; set; }
-    public int DestinationCityId { get; set; }
-    public int TripTime { get; set; }
-}
-public class TripResponse
-{
-    public int TripId { get; set; }
-    public required string Token { get; set; }
-
-}
